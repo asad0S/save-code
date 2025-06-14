@@ -1,0 +1,48 @@
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.save{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.code{
+  padding: 10px 20px;
+  outline: none;
+}
+.save-list{
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 5px;
+  position: relative;
+  right: 300px;
+  top: 30px;
+}
+.code-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.otp-code, .code-4 {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+}
+.otp-code {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  min-width: 300px;  /* عرض مناسب */
+  max-width: 400px;  /* می‌توان کم‌وزیاد کرد */
+  text-align: left;  /* برای خوانایی بهتر */
+  font-family: monospace;
+  word-break: break-all;  /* اجازه می‌دهد کد طولانی بشکند و نرود بیرون */
+  background-color: #f9f9f9;
+  overflow-wrap: break-word;
+}
