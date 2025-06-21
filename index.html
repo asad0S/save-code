@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ذخیره کننده کد انسپکت</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Firebase -->
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
-  <input type="text" placeholder="کد otp خودرا وارد کنید" class="code" />
-  <input type="text" placeholder="کد 4 رقمی خودرا وارد کنید" class="code" />
+  <input type="text" placeholder="کد otp خودرا وارد کنید" class="code">
+  <input type="text" placeholder="کد 4 رقمی خودرا وارد کنید" class="code">
   <button class="save">ذخیره</button>
-  
   <div class="save-list">
     <h2>کد های ذخیره شده:</h2>
-    <!-- این div‌ها توسط JS ساخته می‌شوند -->
+    <!-- اینجا JS خودش تولید می‌کند -->
   </div>
-
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
   <script src="script.js"></script>
+  
 </body>
 </html>
